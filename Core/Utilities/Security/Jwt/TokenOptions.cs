@@ -8,7 +8,7 @@ namespace Core.Utilities.Security.Jwt
     {
         public string Audience { get; set; }
         public string Issuer { get; set; }
-        public int AccesTokenExpriration { get; set; }
+        public int AccessTokenExpriration { get; set; }
         public string SecurityKey { get; set; }
 
     }
